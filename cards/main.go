@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	printState()
+	cards := deck{"test", "string", "heart"}
+	cards.print()
 }

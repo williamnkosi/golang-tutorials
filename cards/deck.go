@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
-func printState() {
-	fmt.Println("New Deck")
+type deck []string
+
+func (d deck) print() {
+	for index, card := range d {
+		fmt.Println("Index:", index, "Card: ", card)
+	}
 }
