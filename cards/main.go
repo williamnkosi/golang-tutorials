@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	cards := deck{"test", "string", "heart"}
+	cards := newDeck()
 	cards.print()
 }
